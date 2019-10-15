@@ -1,0 +1,44 @@
+body {
+  color: #eee;
+  background: #000;
+  font-family: sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  width: 50%;
+  margin: auto;
+}
+
+span {
+  color: #999;
+}
+
+a {
+  color: #eee;
+  text-decoration: underline;
+}
+
+article {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.more {
+  padding: 10px;
+  cursor: pointer;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+footer {
+  margin: 50px auto;
+  font-family: monospace;
+}
+
+@media screen and (max-width: 768px) {
+  #app {
+    width: 90%;
+  }
+}
